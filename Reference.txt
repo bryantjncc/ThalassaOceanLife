@@ -1,0 +1,12 @@
+References: 
+- https://www.w3schools.com/html/html_editors.asp
+- https://websitesetup.org/website-coding-html-css/
+- "Javascript Form Validation" https://www.youtube.com/watch?v=In0nB0ABaUk
+- "Cool Link Hover Effect | HTML & CSS" https://www.youtube.com/watch?v=IYTBAQRBsw0
+- "Buttons With Awesome Hover Effects Using Only HTML & CSS" https://www.youtube.com/watch?v=MLfAW55_4cY
+- https://a-z-animals.com/animals/manta-ray/
+- https://www.britannica.com/animal/jellyfish
+- https://seaworld.org/animals/all-about/sea-turtles/classification/
+- https://seaworld.org/animals/all-about/killer-whale/classification/
+- https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=82603#null
+- https://www.vedantu.com/biology/scientific-name-of-starfish

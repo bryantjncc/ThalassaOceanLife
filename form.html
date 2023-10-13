@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thalassa - Bryant Juan Chandra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<section class ="sub3-header">
+    <nav>
+        <a href="index.html"><img src="pics/logo2n.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="animals.html">Animals</a></li>
+                <li><a href="form.html">Contact Us</a></li>
+                <div class="animation"></div>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <form>
+            <i class="far fa-envelope-open"></i>
+    
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" placeholder="Name..." id="custName" onkeyup="validName()">
+            <span id="name-error"></span>
+          </div>
+    
+          <div class="input-group">
+            <label>Phone</label>
+            <input type="tel" placeholder="081234567890" id="custPhone" onkeyup="validPhone()">
+            <span id="phone-error"></span>
+          </div>
+    
+          <div class="input-group">
+            <label>Email Id</label>
+            <input type="email" placeholder="Enter Email" id="custMail" onkeyup="validMail()">
+            <span id="mail-error"></span>
+          </div>
+
+          <div class="input-group">
+            <label>Your Message</label>
+            <textarea rows="5" placeholder="Message Us" id="custMessage" onkeyup="validMesej()"></textarea>
+            <span id="message-error"></span>
+        </div>
+        <button onclick="return validForm()">Submit</button>
+        <span id="submit-error"></span>
+
+      </form>
+    </div>
+    </section>
+  
+    <!-- Footer -->
+    <section class="footer">
+        <h4>Contact Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Vivamus id mi rhoncus, aliquam metus id, placerat mi. Donec massa sapien, pellentesque in dapibus eget,]
+        <br> placerat tempus diam. </p>
+    
+    <div class="icons">
+        <a href="https://web.facebook.com/profile.php?id=100079308600311"><i class="fab fa-facebook-f fa-2x"></i></a>
+        <a href="https://twitter.com/home"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/youngjuhh/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtu.be/qmkv83UtOfg"><i class="fab fa-youtube fa-2x"></i></a>
+    </div>
+    <p>Made by Bryant Juan</p>
+    </section>
+  
+    
+</body>
+</html>
